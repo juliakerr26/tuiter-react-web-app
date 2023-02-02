@@ -1,0 +1,118 @@
+.wd-bg-black {
+    background-color: black;
+}
+.wd-bg-dark-gray {
+    background-color: darkgray;
+}
+.wd-fg-white {
+    color: white;
+}
+.wd-fg-dark-gray {
+    color: rgb(110, 118, 125);
+}
+.wd-boarder {
+    color: rgb(47, 51, 54);
+    border-style: hidden solid hidden solid;
+}
+.wd-fg-highlight-color {
+    color: rgb(29, 161, 242);
+}
+.wd-overall-offset {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-inline {
+    display: inline-block;
+}
+.wd-hyperlinks {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-style: hidden hidden solid hidden;
+}
+.wd-hyperlinks > .wd-tab {
+    font-size: 16px;
+    padding: 16px;
+    border-style: hidden hidden solid hidden;
+}
+
+.wd-post {
+    color: rgb(47, 51, 54);
+    border-style: hidden hidden solid hidden;
+    padding: 13px;
+    overflow: auto;
+}
+.wd-post > .wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-post > .wd-title {
+    font-size: 15px;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.wd-post > .wd-num-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-post > .wd-post-author {
+    font-size: 13px;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.wd-post > .wd-post-author > .wd-post-time {
+    display: inline-block;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-profile-name {
+    display: inline-block;
+    padding-top: 3px;
+}
+.wd-post > .wd-post-image {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+#wd-search-header {
+    display: flex;
+}
+#wd-search-icon {
+    position: absolute;
+    left: 35px;
+    height: 13px;
+    padding-top: 5px;
+    z-index: 1;
+}
+#wd-search-bar {
+    flex-grow: 1;
+    padding-left: 25px;
+    z-index: 0;
+}
+#wd-explore-settings {
+    float: right;
+    margin-top: 2px;
+    margin-left: 12px;
+    height: 20px;
+    filter: invert(50%) sepia(40%) saturate(1000%) hue-rotate(160deg);
+}
