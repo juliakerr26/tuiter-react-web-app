@@ -1,0 +1,75 @@
+.wd-fg-red {
+    color: red;
+}
+.wd-bookmarks-title {
+    padding-top: 12px;
+    font-size: 20px;
+}
+.wd-user-handle {
+    padding-bottom: 12px;
+    font-size: 13px;
+    border-bottom-style: solid;
+}
+.wd-post-author-image {
+    width: 48px;
+    height: 48px;
+    padding-top: 12px;
+    padding-right: 12px;
+    vertical-align: middle;
+}
+.wd-post-author {
+    font-size: 15px;
+}
+.wd-post-content {
+    max-width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    position: relative;
+    bottom: 18px;
+    left: 65px;
+}
+.wd-post-link {
+    border-style: solid;
+    border-radius: 20px;
+    position: relative;
+    left: 65px;
+}
+.wd-post-link-image {
+    width: 540px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-post-link-title {
+    font-size: 15px;
+    padding: 5px 12px;
+}
+.wd-post-link-text-preview {
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    max-width: 504px;
+}
+.wd-post-icons {
+    padding-top: 12px;
+    max-width: 504px;
+    position: relative;
+    left: 65px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.wd-icon {
+    width: 15px;
+    height: 15px;
+    padding-right: 12px;
+    filter: invert(47%) sepia(17%) saturate(217%) hue-rotate(166deg) brightness(93%) contrast(85%);
+}
+.wd-heart-icon {
+    width: 15px;
+    height: 15px;
+    padding-right: 12px;
+    filter: invert(18%) sepia(78%) saturate(5558%) hue-rotate(354deg) brightness(97%) contrast(125%);
+}

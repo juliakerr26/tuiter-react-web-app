@@ -1,31 +1,11 @@
-.wd-bg-black {
-    background-color: black;
-}
 .wd-bg-dark-gray {
     background-color: darkgray;
-}
-.wd-fg-white {
-    color: white;
-}
-.wd-fg-dark-gray {
-    color: rgb(110, 118, 125);
-}
-.wd-boarder {
-    color: rgb(47, 51, 54);
-    border-style: hidden solid hidden solid;
 }
 .wd-fg-highlight-color {
     color: rgb(29, 161, 242);
 }
-.wd-overall-offset {
-    padding-left: 16px;
-    padding-right: 16px;
-}
 .wd-rounded-corners-all-around {
     border-radius: 50px;
-}
-.wd-inline {
-    display: inline-block;
 }
 .wd-hyperlinks {
     padding-top: 16px;
@@ -73,7 +53,7 @@
     display: inline-block;
     padding-top: 3px;
 }
-.wd-post > .wd-post-image {
+.wd-post > .wd-post-link-image {
     width: 100px;
     height: 100px;
     display: inline-block;

@@ -1,0 +1,20 @@
+.wd-bg-black {
+    background-color: black;
+}
+.wd-fg-white {
+    color: white;
+}
+.wd-fg-dark-gray {
+    color: rgb(110, 118, 125);
+}
+.wd-overall-offset {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.wd-boarder {
+    color: rgb(47, 51, 54);
+    border-style: hidden solid hidden solid;
+}
+.wd-inline {
+    display: inline-block;
+}
