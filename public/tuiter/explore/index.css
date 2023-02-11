@@ -10,9 +10,21 @@
     flex-grow: 1;
     padding-left: 30px;
 }
-.img-size {
+.post-img-size {
     width: 85px;
     height: 85px;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+}
+.img-description {
+    font-size: 35px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 @media (min-width: 1200px){
     .button-size {
