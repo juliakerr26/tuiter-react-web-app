@@ -19,68 +19,123 @@
 <body>
 <div class="container mt-3">
     <div class="row">
-        <div id="navigation" class="col-xxl col-xl col-lg col-md-3 col-sm-3 float-right">
-            <div class="list-group d-inline-block">
-                <a class="list-group-item disabled" tabindex="-1" aria-disabled="true">
-                    <i class="fab fa-twitter"></i></a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fas fa-home"></i></div>
-                        <div class="col-10 d-none d-xl-block">Home</div>
-                    </div>
-                </a>
-                <a href="index.html" class="list-group-item list-group-item-action active">
-                    <div class="row">
-                        <div class="col-2"><i class="fa fa-solid fa-hashtag"></i></div>
-                        <div class="col-10 d-none d-xl-block">Explore</div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fa fa-solid fa-bell"></i></div>
-                        <div class="col-10 d-none d-xl-block">Notifications</div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fa fa-solid fa-envelope"></i></div>
-                        <div class="col-10 d-none d-xl-block">Messages</div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fa fa-solid fa-bookmark"></i></div>
-                        <div class="col-10 d-none d-xl-block">Bookmarks</div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fa fa-solid fa-list"></i></div>
-                        <div class="col-10 d-none d-xl-block">Lists</div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fa fa-solid fa-user"></i></div>
-                        <div class="col-10 d-none d-xl-block">Profile</div>
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    <div class="row">
-                        <div class="col-2"><i class="fas fa-ellipsis-h"></i></div>
-                        <div class="col-10 d-none d-xl-block">More</div>
-                    </div>
-                </a>
+        <div id="navigation" class="col-xxl-2 col-xl-2 col-lg-1 col-md-1 col-sm-1">
+            <div class="float-end">
+                <div class="list-group d-inline-block">
+                    <a class="list-group-item disabled" tabindex="-1" aria-disabled="true">
+                        <i class="fab fa-twitter"></i></a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fas fa-home"></i></div>
+                            <div class="col-10 d-none d-xl-block">Home</div>
+                        </div>
+                    </a>
+                    <a href="index.html" class="list-group-item list-group-item-action active">
+                        <div class="row">
+                            <div class="col-2"><i class="fa fa-solid fa-hashtag"></i></div>
+                            <div class="col-10 d-none d-xl-block">Explore</div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fa fa-solid fa-bell"></i></div>
+                            <div class="col-10 d-none d-xl-block">Notifications</div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fa fa-solid fa-envelope"></i></div>
+                            <div class="col-10 d-none d-xl-block">Messages</div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fa fa-solid fa-bookmark"></i></div>
+                            <div class="col-10 d-none d-xl-block">Bookmarks</div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fa fa-solid fa-list"></i></div>
+                            <div class="col-10 d-none d-xl-block">Lists</div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fa fa-solid fa-user"></i></div>
+                            <div class="col-10 d-none d-xl-block">Profile</div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="row">
+                            <div class="col-2"><i class="fas fa-ellipsis-h"></i></div>
+                            <div class="col-10 d-none d-xl-block">More</div>
+                        </div>
+                    </a>
+                </div>
+
+                <button type="button" class="btn btn-primary rounded-pill d-block mt-2 button-size">Tweet</button>
+            </div>
+        </div>
+
+        <div id="main-content" class="col-xxl-7 col-xl-6 col-lg-7 col-md-11 col-sm-11 pb-5">
+            <div>
+                <label for="wd-search-bar" class="search-icon position-absolute pl-15 pt-1"><i class="fas fa-search"></i></label>
+                <input id="wd-search-bar" class="rounded-pill search-bar"
+                       placeholder="Search Tuiter"/>
+                <a class="pt-1 align-middle float-end" href="#"><i class="fas fa-cog" style="font-size: 26px"></i></a>
             </div>
 
-            <button type="button" class="btn btn-primary rounded-pill d-block mt-2">Tweet</button>
+            <ul class="nav nav-tabs pt-3 pb-3">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <img class="w-100 border" src="spaceX-starship.jpg">
+            <div class="w-100 border overflow-auto p-2">
+                <img class="img-size rounded float-end d-inline-block" src="reactjs-post-img.png">
+                <small class="d-block">Web Development</small>
+                <b class="d-inline-block">ReactJS <i class="fas fa-check-circle"></i></b>
+                <small class="d-inline-block"> - 2h</small>
+                <b class="d-block">React.js is a component based front end library that makes it very easy to build
+                    Single Page Applications or SPAs </b>
+            </div>
+            <div class="w-100 border overflow-auto p-2">
+                <img class="img-size rounded float-end d-inline-block" src="javascript-post-img.png">
+                <b class="d-inline-block">JavaScript <i class="fas fa-check-circle"></i></b>
+                <small class="d-inline-block"> - 2h</small>
+                <b class="d-block">JavaScript is a programing language that can run on browsers as well as desktops </b>
+                <small class="d-block">123K Tweets</small>
+            </div>
+            <div class="w-100 border overflow-auto p-2">
+                <img class="img-size rounded float-end d-inline-block" src="jquery-post-img.webp">
+                <small class="d-block">Web Development</small>
+                <b class="d-inline-block">JQuery</b>
+                <small class="d-block">123K Tweets</small>
+            </div>
+            <div class="w-100 border overflow-auto p-2">
+                <img class="img-size rounded float-end d-inline-block" src="nodejs-post-img.webp">
+                <small class="d-block">Web Development</small>
+                <b class="d-inline-block">NodeJS <i class="fas fa-check-circle"></i></b>
+                <small class="d-inline-block"> - 2h</small>
+                <small class="d-block">123K Tweets</small>
+            </div>
         </div>
 
-        <div id="main-content" class="col-xxl col-xl col-lg col-md-9 col-sm-9">
-            main content
-        </div>
-
-        <div id="side-bar" class="col-xxl col-xl col-lg d-none d-lg-block">
+        <div id="side-bar" class="col-xxl-3 col-xl-4 col-lg-4 d-none d-lg-block">
             <div class="list-group">
                 <a class="list-group-item">
                     Who to Follow</a>
