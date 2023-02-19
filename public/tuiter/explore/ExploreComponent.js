@@ -6,7 +6,7 @@ const ExploreComponent = () => {
             <label for="wd-search-bar" class="search-icon position-absolute pl-10 pt-1">
                 <i class="fas fa-search"></i>
             </label>
-            <input id="wd-search-bar" class="rounded-pill search-bar" placeholder="Search Tuiter"/>
+            <input id="wd-search-bar" class="rounded-pill search-bar bg-white" placeholder="Search Tuiter"/>
             <a class="pt-1 align-middle float-end" href="#"><i class="fas fa-cog" style="font-size: 20px"></i></a>
         </div>
         <ul class="nav mb-2 nav-tabs">
