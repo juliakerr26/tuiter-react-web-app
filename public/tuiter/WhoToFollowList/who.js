@@ -20,7 +20,7 @@ export default [
         "handle": "NASA"
     },
     {
-        "avatarIcon": "../../images/tesla.png",
+        "avatarIcon": "../../images/tesla.jpeg",
         "userName": "Tesla",
         "handle": "Tesla"
     },
