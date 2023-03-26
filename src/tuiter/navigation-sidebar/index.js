@@ -5,11 +5,11 @@ const NavigationSidebar = ({active = 'explore'}) => {
         <div className="list-group">
             <a className="list-group-item">Tuiter</a>
             <a className={`list-group-item list-group-item-action
-                    ${active === 'home'?'active':''}`} href="home">
+                    ${active === 'home'?'active':''}`} href="./home">
                 Home
             </a>
             <a className={`list-group-item list-group-item-action
-                    ${active === 'explore'?'active':''}`} href="exploretab">
+                    ${active === 'explore'?'active':''}`} href="./explore">
                 Explore
             </a>
             <a className={`list-group-item

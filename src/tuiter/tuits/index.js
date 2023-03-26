@@ -9,9 +9,7 @@ const TuitsList = () => {
     const postsArray = useSelector(state => state.tuits)
     return(
         <div>
-            <h3>Home</h3>
             <ul className="list-group">
-                <TuitItem post={posts[0]}/>
                 {
                     postsArray.map(post =>
                         <TuitItem
