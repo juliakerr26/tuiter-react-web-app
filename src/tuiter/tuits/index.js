@@ -13,7 +13,7 @@ const TuitsList = () => {
     <div>
       <ul className="list-group">
         {loading && <li className="list-group-item">Loading...</li>}
-        {postsArray.map(post => (
+        {tuits.map(post => (
           <TuitItem key={post._id} post={post} />
         ))}
       </ul>

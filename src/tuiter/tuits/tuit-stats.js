@@ -1,6 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import {updateLikes} from "./tuits-reducer";
+import { updateTuitThunk } from '../../services/tuits-thunks';
 
 const TuitStats = (
     {
@@ -22,7 +23,7 @@ const TuitStats = (
 ) => {
     const dispatch = useDispatch();
     const updateLikesHandler = (id) => {
-        dispatch(updateTuitThunk(id));
+        dispatch(updateLikes(id));
     }
 
     return(
