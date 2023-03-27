@@ -22,10 +22,11 @@ const TuitStats = (
 ) => {
     const dispatch = useDispatch();
     const updateLikesHandler = (id) => {
-        dispatch(updateLikes(id));
+        dispatch(updateTuitThunk(id));
     }
 
     return(
+
         <div className="row">
             <div className="col-3">
                 <i className="fa-regular fa-comment"></i> {post.replies}
