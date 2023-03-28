@@ -33,7 +33,7 @@ const TuitItem = (
                 </div>
                 <div className="col-10">
                     <div className="fw-bolder d-inline-block">
-                        {post.userName} <i className="fa-solid fa-circle-check"></i>
+                        {post.username} <i className="fa-solid fa-circle-check"></i>
                     </div>
                     <div className="d-inline-block px-2">{post.handle} . {post.time}</div>
                     <div className="float-end">
