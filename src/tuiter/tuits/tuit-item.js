@@ -8,7 +8,7 @@ const TuitItem = (
         post = {
             "_id": 1,
             "topic": "Space",
-            "userName": "SpaceX",
+            "username": "SpaceX",
             "time": "2h",
             "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
             "image": "tesla.jpeg",
